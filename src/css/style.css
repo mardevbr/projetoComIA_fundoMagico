@@ -1,0 +1,75 @@
+body {
+    background-color: #0f131a;
+    color: #ffffff;
+    background: url(../images/bg.JPG);
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+
+}
+
+.header .subtitle{
+    font-size: 19.2px;
+    color: #ffffffcc;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+.container{
+    
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+
+}
+
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 32px;
+        
+}
+
+.card-header{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 20.8px;
+
+}
+
+.form-group textarea{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    width: 100%;
+    min-width: 120px;
+    border: 1px solid #474646;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 16px;
+    margin-bottom: 20px;
+    
+}
+
+.form-group textarea:focus{
+    outline: none;
+    border-color: #a655f7;
+    
+}
+
+.form-group textarea::placeholder{
+    color: #e7dcdc;
+    
+}
